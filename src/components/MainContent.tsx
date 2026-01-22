@@ -46,10 +46,20 @@ const LandingPage = () => {
       <Navbar />
       <FloatingMathBackground />
 
-      <div className="container mx-auto px-4 py-20 text-center relative z-10">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">
-          PSG Tech Math Olympiad 2026
-        </h1>
+      <div className="container mx-auto px-1 py-20 text-center relative z-10">
+        
+       <div className="relative flex justify-center py-6">
+          <img src="/assets/images/6f2fb31c-cb95-44dc-b28d-e0112a75081b-removebg-preview.png" alt="" className="w-32 h-24 -mt-2 " />
+  
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 ml-0">
+            PSG Tech Math Olympiad 2026
+          </h1>
+
+          <img src="/assets/images/57615bcf-0b49-4415-ba75-99a7a0b9d3bd-removebg-preview.png" alt="" className="w-32 h-24 -mt-4 -ml-2" />
+
+        </div>
+        
+       
         <h2 className="text-2xl md:text-3xl font-semibold mb-6">
           24th February 2026 (Tuesday)
         </h2>
@@ -92,6 +102,7 @@ const LandingPage = () => {
           ))}
         </div>
       </div>
+
       <div className="py-16 bg-white">
       <div className="container mx-auto px-6 lg:px-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
