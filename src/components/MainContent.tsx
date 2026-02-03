@@ -48,14 +48,33 @@ const LandingPage = () => {
 
       <div className="container mx-auto px-1 py-20 text-center relative z-10">
         
-       <div className="relative flex justify-center py-6">
-          <img src="/assets/images/6f2fb31c-cb95-44dc-b28d-e0112a75081b-removebg-preview.png" alt="" className="w-21 h-17 sm:w-32 sm:h-auto sm:-mt-4 sm:-ml-3 lg:h-30 lg:-mt-7" />
-  
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 ml-0 xl:pr-10 xl:pl-10 md:pl-5 md:pr-5">
-            PSG Tech Math Olympiad 2026
+       <div className="relative flex justify-center items-center">
+         
+          <img src="/assets/images/6f2fb31c-cb95-44dc-b28d-e0112a75081b-removebg-preview.png" alt="" className="
+        h-16
+        sm:h-16
+        md:h-20
+        lg:h-25
+        w-auto
+      " />
+    
+      <div className="ml-2.5 text-center leading-tight">
+          <h1 className="text-3xl md:text-6xl font-bold mb-4 ml-0">
+            PSG  COLLEGE OF TECHNOLOGY 
           </h1>
 
-          <img src="/assets/images/57615bcf-0b49-4415-ba75-99a7a0b9d3bd-removebg-preview.png" alt="" className="w-21 h-17 sm:w-34 sm:h-auto sm:-mt-4 sm:-ml-2 lg:-mt-9 lg:h-30" />
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 ml-0">
+            Math Olympiad 2026
+          </h1>
+      </div>
+
+          <img src="/assets/images/57615bcf-0b49-4415-ba75-99a7a0b9d3bd-removebg-preview.png" alt=""  className="
+        h-14
+        sm:h-16
+        md:h-18
+        lg:h-25
+        w-auto
+      " />
 
         </div>
         
@@ -80,7 +99,7 @@ const LandingPage = () => {
 
         <div className="mt-8">
           <p className="text-2xl font-bold">Venue: PSGCT</p>
-          <p className="text-lg">Iamneo (Examly) Platform</p>
+          <p className="text-lg">Examly Platform</p>
         </div>
 
         <div className="mt-8">
@@ -103,7 +122,7 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <div className="pt-14 pb-3 bg-white">
+      <div className="py-16 bg-white">
       <div className="container mx-auto px-6 lg:px-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {details.map((item, index) => (
@@ -117,20 +136,13 @@ const LandingPage = () => {
               <h3 className="text-xl font-bold text-black">{item.title}</h3>
             </div>
           ))}
-          {/* <img src="/assets/images/psg_logo.jpg" alt="" className="
-    col-span-1 md:col-span-3
-    justify-self-center
-    w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32
-    h-auto object-contain
-    mt-4 -mb-2 
-  "/> */}
         </div>
       </div>
     </div>
       <CoordinatorsSection />
       <div id="Register Here" className="flex justify-center items-center h-48 bg-gradient-to-r from-blue-400 to-blue-600">
         <a
-          href="https://forms.gle/uQyfRrkER1rX7ndE8"
+          href="https://forms.gle/BG4MQqoNucAxQ1Um8"
           className="bg-white text-blue-600 font-bold text-2xl md:text-xl px-10 py-4 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-110 hover:bg-blue-800 hover:text-white flex items-center gap-2"
         >
           Register Now
