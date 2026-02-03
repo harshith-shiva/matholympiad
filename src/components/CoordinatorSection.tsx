@@ -4,7 +4,9 @@ import { coordinators } from "./coordinators";
 const CoordinatorsSection = () => {
   return (
     <section id="Co-ordinators" className="py-14 bg-white">
-      <h2 className="text-3xl font-bold text-blue-500 text-center mb-8">Co-ordinators</h2>
+      <div className="">
+      <h2 className="text-3xl font-bold text-blue-500 text-center mb-13">Co-ordinators</h2>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-6 pb-8">
         {coordinators.map((coordinator, index) => (
           <div
@@ -15,7 +17,7 @@ const CoordinatorsSection = () => {
               <img src={contactIcon} />
             </div>
             <h3 className="text-gray-700 text-lg font-semibold">{coordinator.name}</h3>
-            <p className="text-gray-600 text-sm mb-2">{coordinator.title}</p>
+            <p className="text-gray-600 text-sm mb-2 whitespace-pre-line">{coordinator.title}</p>
             <p className="text-blue-500 font-medium">{coordinator.phone}</p>
           </div>
         ))}

@@ -11,7 +11,7 @@
     },
     {
       name: "Dr. V. Suresh Kumar",
-      title: "Associate Professor, Department of AMCS",
+      title: "Associate Professor,\nDepartment of AMCS",
       phone: "+91 8110955490",
     },
     {
