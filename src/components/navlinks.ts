@@ -12,9 +12,9 @@ export const navLinks: NavLink[] = [
 
   {
     text: "Seating Arrangement",
-    link: "/assets/docs/seating-arrangement.xlsx",
+    link: "/assets/docs/seating_arrangement.xlsx",
     isBlank: true,
-     isLive: false, 
+     isLive: true, 
   },
 
   {
